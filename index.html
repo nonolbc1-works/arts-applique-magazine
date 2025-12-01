@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Magazine en ligne</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#magazine">Magazine</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Découvrez notre dernier numéro</h2>
+            <p>Consultez la une de magazine directement en ligne</p>
+        </section>
+
+        <section class="magazine-viewer">
+            <div class="pdf-container">
+                <iframe src="docs/magazine.pdf" title="Magazine PDF"></iframe>
+            </div>
+            <div class="controls">
+                <a href="docs/magazine.pdf" download class="btn-download">Télécharger le PDF</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Une de magazine en ligne dans le cadre d'un projet. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
